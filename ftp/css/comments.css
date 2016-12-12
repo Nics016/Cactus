@@ -1,0 +1,181 @@
+.comments{
+	display: block;
+	margin-top: 15px;
+}
+
+.comments .container{
+	background-color: #eee;
+	border: 1px solid #000;
+}
+
+.comments-wrapper{
+	width: calc(100% - 40px);
+	padding: 20px;
+}
+
+p.comment-notes{
+	font-family: Rockwell;
+	font-size: 18px;
+	color: #585858;
+	text-align: center;
+}
+
+div.reply{
+	border-bottom: 1px dashed #585858;
+	padding-bottom: 10px;
+}
+
+ul.list li{
+	font-family: Rockwell;
+	font-size: 18px;
+	color: #b79;
+	text-align: center;
+}
+
+/* COMMENT */
+ul{
+	list-style-type: none;
+}
+
+a{
+	text-decoration: none;
+	font-family: Rockwell
+	font-size: 18px;
+	color: #585858;
+	font-weight: bold;
+}
+
+a.comment-reply-link:hover{
+	color: #b79;
+}
+
+a.comment-reply-link{
+	transition: all .3s ease-in;
+}
+
+.comments-caption a{
+	margin-left: 300px;
+	font-family: Rockwell;
+	font-size: 22px;
+	font-weight: bold;
+	color: #585858;
+	text-align: center;
+}
+
+.comment-author .fn{
+	font-family: Rockwell;
+	font-size: 18px;
+	font-weight: bold;
+	color: #000;
+}
+
+.comment-author .says{
+	font-family: Rockwell;
+	font-size: 18px;
+	color: #585858;
+}
+
+li.comment{
+	margin-top: 30px;
+}
+
+.comment p{
+	font-family: Rockwell;
+	font-size: 18px;
+	color: #585858;
+	text-indent: 20px;
+}
+
+a#cancel-comment-reply-link{
+	margin-left: 10px;
+	color: #7b9;
+}
+
+p.logged-in-as a:nth-child(2){
+	color: #b79;
+}
+
+/* ADD COMMENT */
+#reply-title{
+	margin-top: 50px;
+	font-size: 22px;
+	color: #585858;
+	font-weight: bold;
+	text-align: center;
+}
+
+#commentform{
+	display: block;
+	width: 600px;
+	margin: 20px auto;
+}
+
+.comment-form label{
+	display: block;
+	margin: 10px auto;
+	font-size: 20px;
+	color: #585858;
+}
+
+.comment-form-comment label{
+	margin-top: 15px;
+	font-weight: bold;
+}
+
+span.required{
+	margin-left: 5px;
+	color: red;
+}
+
+.comment-form-comment textarea:hover,
+input[type=text]:hover,
+input[type=email]:hover,
+input[type=url]:hover{
+	border: 1px solid #abf;
+}
+
+.comment-form-comment textarea:focus,
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=url]:focus{
+	background-color: #eee;
+}
+
+.comment-form-comment textarea{
+	display: block;
+	padding: 10px;
+	margin: 10px auto;
+	font-size: 18px;
+	color: #585858;
+}
+
+input[type=text],
+input[type=email],
+input[type=url]{
+	display: block;
+	padding: 10px;
+	margin: 10px 55px;
+	font-size: 18px;
+	color: #585858;
+}
+
+input[type=submit]:hover{
+	background-color: #abf;
+	color: #fff;
+}
+
+input[type=submit]{
+	display: block;
+	padding: 15px 30px;
+	border-radius: 5px;
+	margin: 10px auto;
+	font-size: 20px;
+	font-weight: bold;
+	color: #585858;
+	transition: all .3s ease-in;
+}
+
+p.comment-notes{
+	font-size: 16px;
+	color: #585858;
+}

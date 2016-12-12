@@ -1,0 +1,112 @@
+.category{
+	display: block;
+	margin-top: 15px;
+}
+
+.category .container{
+	background-color: #fff;
+	border: 1px solid #000;
+}
+
+.category-wrapper{
+	width: calc(100% - 40px);
+	padding: 20px;
+}
+
+.category-title{
+	display: block;
+	margin: 30px auto;
+	text-align: center;
+	font-family: Rockwell;
+	font-size: 28px;
+	font-weight: bold;
+	color: #585858;
+}
+
+.category-post:first-child{
+	margin-top: 15px;
+}
+
+.category-post:last-child{
+	margin-bottom: 50px;
+}
+
+.category-post{
+	display: block;
+	margin-top: 50px;
+	position: relative;	
+}
+
+.category-post-pic{
+	display: block;
+	float:left;
+	border-radius: 5px;
+	width: 400px;
+	height: 300px;
+	border: 2px solid #fff;
+}
+
+.category-post-pic-link:hover .category-post-pic{
+	border-color: #000;
+}
+
+.category-post-info{
+	display: block;
+	float: left;
+	width: 660px;
+	margin-left: 40px;
+}
+
+.category-post-info-title:hover{
+	color: #f67;
+}
+
+.category-post-info-title{
+	display: block;
+	font-family: Rockwell;
+	font-weight: bold;
+	font-size: 22px;
+	text-indent: 20px;
+	color: #000;
+	text-decoration: none;
+}
+
+.category-post-info-description{
+	display: block;
+	margin-top: 15px;
+	font-family: Rockwell;
+	font-size: 20px;
+	text-indent: 20px;
+	color: #585858;
+	text-align: justify;
+}
+
+.category-post-more:hover{
+	color: black;
+}
+
+.category-post-more:active{
+	color: red;
+}
+
+.category-post-date{
+	display: block;
+	position: absolute;
+	color: #585858;
+	font-family: Rockwell;
+	font-size: 18px;
+	left: 440px;
+	bottom: 15px;
+}
+
+.category-post-more{
+	display: block;
+	position: absolute;
+	right: 20px;
+	bottom: 10px;
+	margin-top: 15px;
+	font-family: Rockwell;
+	font-size: 20px;
+	text-indent: 10px;
+	color: #585858;
+}

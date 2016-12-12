@@ -1,0 +1,66 @@
+#main-header{
+	display: block;
+}
+
+.logo{
+
+}
+
+.logo-title{
+	display: block;
+	margin: 0 auto;
+	padding-top: 20px;
+	font-family: Rockwell;
+	font-size: 89px;
+	text-align: center;
+	color: #222;
+}
+
+.top-menu{
+	display: block;
+	margin-top: 10px;
+}
+
+.top-menu .container{
+	display: block;
+	height: 50px;
+	background-color: #fff;
+	border: 1px solid #000;
+}
+
+#top-menu-ul{
+	display: block;
+	list-style-type: none;
+	margin: 0;
+	padding-left: 50px;
+}
+
+#top-menu-ul li:first-child{
+	margin-left: 200px;
+}
+
+#top-menu-ul .current-menu-item{
+	font-weight: bold;
+	color: #000;
+}
+
+#top-menu-ul li{
+	display: inline-block;
+}
+
+#top-menu-ul li a:hover{
+	border-color: #000;
+}
+
+#top-menu-ul li a{
+	display: block;
+	margin-top: 4px;
+	padding: 8px 20px;
+	border-radius: 10px;
+	border: 1px solid #fff;
+	font-family: Rockwell;
+	font-size: 20px;
+	text-align: center;
+	color: #5b5b5b;
+	text-decoration: none;
+}

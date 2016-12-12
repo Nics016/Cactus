@@ -1,0 +1,61 @@
+/* Общие */
+/* Заголовки */
+@font-face{
+	src: url('../fonts/PTSansNarrowBold.ttf');
+	font-family: 'NarrowSansBold';
+}
+
+/* Тексты */
+@font-face{
+	src: url('../fonts/PTSansNarrowRegular.ttf');
+	font-family: 'NarrowSansRegular';
+}
+
+body{
+	margin: 0;
+	background-color: #fff;
+}
+
+#main-wrap{
+	display: inline-block;
+	font-family: NarrowSansRegular;
+	width: 100%;
+	background: url(../img/bg.jpg) no-repeat;
+	background-size: cover;
+}
+
+.container{
+	display: block;
+	width: 1170px;
+	margin: 0 auto;
+    overflow: hidden;
+}
+
+.clearfix:after{
+	content: '';
+	display: table;
+	clear: both;
+}
+
+/* 404 */
+.page404-pic{
+	display: block;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+
+.page404-link:hover{
+	text-decoration: underline;
+	color: darkgreen;
+}
+
+.page404-link{
+	display: block;
+	font-family: NarrowSansRegular;
+	font-size: 24px;
+	color: green;
+	margin: 0 auto;
+	margin-top: 50px;
+	text-align: center;
+	text-decoration: none;
+}

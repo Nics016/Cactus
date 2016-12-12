@@ -1,0 +1,35 @@
+#main-footer{
+	display: block;
+	margin-top: 15px;
+	margin-bottom: 100px;
+}
+
+#main-footer .container{
+	height: 55px;
+	border: 1px solid #000;
+	background-color: #fff;
+}
+
+.main-footer-text:first-child{
+	margin-left: 25px;
+}
+
+.main-footer-text{
+	display: block;
+	float: left;
+	color: #545454;
+	font-family: Rockwell;
+	font-size: 14px;
+	margin-left: 20px;
+	margin-top: 20px;
+	min-width: 20px;
+}
+
+.main-footer-link:hover{
+	color: #000;
+}
+
+.main-footer-link{
+	text-decoration: none;
+}
+
